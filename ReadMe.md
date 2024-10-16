@@ -19,7 +19,13 @@ Currently, it's just the foundational setup. More features and content will be a
 
 ## Basic Algorithms:
 
-1. **Sorting Algorithms:** 📏
+
+1. [**Recursion:** 🔄](./Basic%20Algorithms/Recursion%20Algorithms/Recursion-Algorithms.md) 
+
+   - [**Factorial** ✖️](./Basic%20Algorithms/Recursion%20Algorithms/Factorial/Factorial.md) 
+   - [**Fibonacci** 🌀](./Basic%20Algorithms/Recursion%20Algorithms/Fibonnacci/Fibonnacci.md)
+
+2. **Sorting Algorithms:** 📏
 
    - [**Bubble Sort** 🔵](./BasicAlgorithms/Sorting%20Algorithms/Bubble%20Sort) 
    - [**Selection Sort** 🎯](./BasicAlgorithms/Sorting%20Algorithms/Selection%20Sort) 
@@ -27,15 +33,10 @@ Currently, it's just the foundational setup. More features and content will be a
    - [**Merge Sort** 🔀](./BasicAlgorithms/Sorting%20Algorithms/Merge%20Sort)
    - [**Quick Sort** ⚡](./BasicAlgorithms/Sorting%20Algorithms/Quick%20Sort)
 
-2. **Searching Algorithms:** 🔍
+3. **Searching Algorithms:** 🔍
 
    - [**Linear Search** ➡️](./BasicAlgorithms/Searching%20Algorithms/Linear%20Search)
    - [**Binary Search** 🌴](./BasicAlgorithms/Searching%20Algorithms/Binary%20Search) 
-
-3. **Recursion:** 🔄
-
-   - [**Factorial** ✖️](./BasicAlgorithms/Recursion%20Algorithms/Factorial) 
-   - [**Fibonacci** 🌀](./BasicAlgorithms/Recursion%20Algorithms/Fibonacci)
 
 ## Common Time and Space Complexities Reminder
 
