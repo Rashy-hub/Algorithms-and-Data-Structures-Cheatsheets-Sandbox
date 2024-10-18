@@ -61,6 +61,29 @@ class LinkedList {
         }
         return false
     }
+    remove(data) {
+        let currentNode = this.head
+        let previousNode = null
+
+        // Traverse to find the node to remove
+        while (currentNode !== null) {
+            if (currentNode.value === data) {
+                //cas limit first node
+                if (previousNode === null) {
+                    this.head = currentNode.next
+                } else {
+                    previousNode.next = currentNode.next
+                    return true
+                }
+                //effectively removing node
+            }
+
+            previousNode = currentNode
+            currentNode = currentNode.next
+        }
+
+        return false
+    }
 
     list() {
         let currentNode = this.head
@@ -74,12 +97,20 @@ class LinkedList {
         output += `[${currentNode.value}]->null`
         console.log(output)
     }
+
+    getSize() {
+        return this.size
+    }
 }
 
 const myLinkedList = new LinkedList()
 myLinkedList.add(2)
 myLinkedList.add(5)
+myLinkedList.add(4)
 myLinkedList.add(8)
-myLinkedList.list()
+console.log('linked list size ' + myLinkedList.list())
 myLinkedList.removeAt(0) // remove node at index position
+console.log(myLinkedList.getSize())
+myLinkedList.list()
+myLinkedList.remove(8)
 myLinkedList.list()
