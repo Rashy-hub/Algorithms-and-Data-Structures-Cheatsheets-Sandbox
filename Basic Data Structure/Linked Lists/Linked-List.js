@@ -1,66 +1,68 @@
 class NodeElement {
-    constructor(value){
-        this.value=value
-        this.next=null
+    constructor(value) {
+        this.value = value
+        this.next = null
     }
-
 }
 
-class LinkedList{
+class LinkedList {
     //ex: Head -> [ 1 ] -> [ 2 ] -> [ 3 ] -> [ 4 ] -> null
-    constructor(){
+    constructor() {
         // first element of our linked list , it is our baby embryo list element destined to grow (or shrink sometimes life sucks too):D
-        this.head=null 
+        this.head = null
         // size tracker
-        this.size=0 
+        this.size = 0
     }
-    
-    add(data){
+
+    add(data) {
         let newNode = new NodeElement(data)
-        newNode.next=null
-        if (this.head===null){
-            this.head=newNode
+        newNode.next = null
+        if (this.head === null) {
+            this.head = newNode
         }
         //if the head element is not null ( means that the list contains already nodes )
-        else{
-           
-            
+        else {
             let currentNode = this.head
             //go trough the list using the next properties until we reach the last node (next points to null)
-            while (currentNode.next!==null)
-            {                
+            while (currentNode.next !== null) {
                 //go to the next node
-                currentNode=currentNode.next
+                currentNode = currentNode.next
             }
-            //current node is the last so far 
+            //current node is the last so far
             currentNode.next = newNode
-            
         }
         // when adding a node always increment size
         this.size++
-    
     }
-    remove(){
-
-    }
-    list(){
-            let currentNode=this.head
-            let output =""
-          //go trough the list using the next properties until we reach the last node (next points to null)
-          while (currentNode.next!==null)
-            {                
+    remove(position) {
+        if (this.head === null || position >= this.size || position < 0)
+            return false
+        else {
+            let currentNode = this.head
+            while (currentNode.next !== null) {
                 //go to the next node
-                output+=`[${currentNode.value}]->`
-                currentNode=currentNode.next
-            }
-            output+=`[${currentNode.value}]->null`
-            console.log(output)
-    }
 
+                currentNode = currentNode.next
+            }
+        }
+        this.size--
+    }
+    list() {
+        let currentNode = this.head
+        let output = ''
+        //go trough the list using the next properties until we reach the last node (next points to null)
+        while (currentNode.next !== null) {
+            //go to the next node
+            output += `[${currentNode.value}]->`
+            currentNode = currentNode.next
+        }
+        output += `[${currentNode.value}]->null`
+        console.log(output)
+    }
 }
 
 const myLinkedList = new LinkedList()
-myLinkedList.add(2);
-myLinkedList.add(5);
-myLinkedList.add(8);
+myLinkedList.add(2)
+myLinkedList.add(5)
+myLinkedList.add(8)
 myLinkedList.list()
