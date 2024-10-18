@@ -1,13 +1,12 @@
 //**Naive Iterative Solution**
 
 function naiveFactorial(n) {
-    let result = 1;
+    let result = 1
     for (let i = 2; i <= n; i++) {
-        result *= i;
+        result *= i
     }
-    return result;
+    return result
 }
-
 
 console.log(naiveFactorial(4)) // will output 24
 console.log(naiveFactorial(5)) // will output 120
@@ -19,13 +18,11 @@ console.log(naiveFactorial(5)) // will output 120
 
 // **Recursive Solution**
 
-function RecursiveFactorial(n){
+function RecursiveFactorial(n) {
     //base case
-    if(n<=1)
-        return 1
+    if (n <= 1) return 1
     //recursive case
-    return n*RecursiveFactorial(n-1)
-
+    return n * RecursiveFactorial(n - 1)
 }
 
 console.log(RecursiveFactorial(4))

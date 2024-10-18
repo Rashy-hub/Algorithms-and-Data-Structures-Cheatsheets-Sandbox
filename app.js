@@ -1,6 +1,5 @@
-console.log("app.js main entry point")
+console.log('app.js main entry point')
 
 //
 
-let mySet= new Set()
-
+let mySet = new Set()
