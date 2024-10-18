@@ -34,19 +34,34 @@ class LinkedList {
         // when adding a node always increment size
         this.size++
     }
-    remove(position) {
-        if (this.head === null || position >= this.size || position < 0)
+    removeAt(position) {
+        let currentPosition = 0
+        let previousNode = null
+        if (this.head === null || position >= this.size || position < 0) {
             return false
-        else {
+        } else {
             let currentNode = this.head
-            while (currentNode.next !== null) {
-                //go to the next node
 
+            while (currentNode !== null) {
+                if (position === currentPosition) {
+                    // Element to remove found
+                    if (previousNode === null) {
+                        this.head = currentNode.next
+                    } else {
+                        previousNode.next = currentNode.next
+                    }
+                    this.size--
+                    return true // Return true if removal is successful
+                }
+
+                currentPosition++
+                previousNode = currentNode
                 currentNode = currentNode.next
             }
         }
-        this.size--
+        return false
     }
+
     list() {
         let currentNode = this.head
         let output = ''
@@ -65,4 +80,6 @@ const myLinkedList = new LinkedList()
 myLinkedList.add(2)
 myLinkedList.add(5)
 myLinkedList.add(8)
+myLinkedList.list()
+myLinkedList.removeAt(0) // remove node at index position
 myLinkedList.list()
