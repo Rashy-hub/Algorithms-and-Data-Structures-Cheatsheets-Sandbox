@@ -32,4 +32,6 @@
 
 -   **Interpolation Search**: Works best for datasets where values are evenly distributed, such as records in a numerical database. However, it should not be used for datasets with irregular distribution.
 
+[Binary Search](./Binary%20Search/)
+[Linear Search](./Linear%20Search/)
 [Back to main README](../../ReadMe.md)

@@ -27,5 +27,10 @@
 -   **Merge Sort**: Ideal for sorting large datasets and linked lists. It is stable and guarantees O(n log n) performance, making it a good choice for external sorting algorithms where the data does not fit into memory.
 
 -   **Quick Sort**: Generally the go-to choice for sorting large datasets due to its average-case efficiency and cache performance. It is used in many standard libraries and applications. However, it is not stable and can be less efficient with very small or nearly sorted data compared to other algorithms like Insertion Sort.
+    [Bubble Sort](./Bubble%20Sort/)
+    [Selection Sort](./Selection%20Sort/)
+    [Insertion Sort](./Insertion%20Sort/)
+    [Merge Sort](./Merge%20Sort/)
+    [Quick Sort](./Merge%20Sort/)
 
 [Back to main README](../../ReadMe.md)
