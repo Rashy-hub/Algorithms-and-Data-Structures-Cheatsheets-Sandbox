@@ -59,3 +59,5 @@ Since multiple keys might hash to the same index, handling collisions is crucial
 ## Conclusion
 
 Hash tables are a powerful and efficient data structure for storing key-value pairs with quick access times. By using a hashing function to map keys to indices in an array, hash tables provide an ideal solution for applications that require fast lookups, such as caching, database indexing, and symbol tables.
+
+[Back to main README](../../ReadMe.md)

@@ -8,13 +8,13 @@ Currently, it's just the foundational setup. More features and content will be a
 ## Data Structures:
 
 1. [**Arrays** 📊](./Basic%20Data%20Structure/Arrays)
-2. [**Linked Lists** 🔗](./Basic%20Data%20Structure/Linked%20Lists/Linked-List.md)
-3. [**Stacks** 🥞](./Basic%20Data%20Structure/Stacks/Stacks.md)
-4. [**Queues** ⏳](./Basic%20Data%20Structure/Queues/Queues.md)
-5. [**Trees** 🌳](./Basic%20Data%20Structure/Trees/Trees.md)
-6. [**Hash Tables** 🗝️](./Basic%20Data%20Structure/Hash%20Tables/Hash-Tables.md)
-7. [**Graphs** 🕸️](./Basic%20Data%20Structure/Graphs/Graphs.md)
-8. [**Sets** 🦄](./Basic%20Data%20Structure/Sets/Sets.md)
+2. [**Linked Lists** 🔗](./Basic%20Data%20Structure/Linked%20Lists)
+3. [**Stacks** 🥞](./Basic%20Data%20Structure/Stacks)
+4. [**Queues** ⏳](./Basic%20Data%20Structure/Queues)
+5. [**Trees** 🌳](./Basic%20Data%20Structure/Trees)
+6. [**Hash Tables** 🗝️](./Basic%20Data%20Structure/Hash%20Tables)
+7. [**Graphs** 🕸️](./Basic%20Data%20Structure/Graphs)
+8. [**Sets** 🦄](./Basic%20Data%20Structure/Sets)
 
 ## Basic Algorithms:
 

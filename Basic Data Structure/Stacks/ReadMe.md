@@ -51,3 +51,5 @@ Here are some example methods for the stack implementation in JavaScript:
 ## Conclusion
 
 Stacks are similar to built-in arrays in that they both store collections of elements, but stacks come with additional control mechanisms. Stacks follow the Last In, First Out (LIFO) principle, where the last element added is the first one to be removed. This characteristic makes stacks particularly useful for managing data and controlling flow in various applications, such as function calls, undo operations, and expression evaluation.
+
+[Back to main README](../../ReadMe.md)

@@ -57,3 +57,5 @@ Here are some example methods for a tree implementation in JavaScript:
 ## Conclusion
 
 Trees are versatile data structures that allow hierarchical one-direction data organization. With various traversal techniques and search capabilities, trees are highly useful for optimizing operations such as searching, organizing file systems, and representing complex hierarchical data. In programming, trees like binary search trees (BST) provide efficient methods for inserting, searching, and deleting elements.
+
+[Back to main README](../../ReadMe.md)
