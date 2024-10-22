@@ -33,8 +33,8 @@ Currently, it's just the foundational setup. More features and content will be a
 
 3. [**Searching Algorithms:** 🔍](./Basic%20Algorithms/Searching%20Algorithms)
 
-    - [**Linear Search** ➡️](./BasicAlgorithms/Searching%20Algorithms/Linear%20Search)
-    - [**Binary Search** 🌴](./BasicAlgorithms/Searching%20Algorithms/Binary%20Search)
+    - [**Linear Search** ➡️](./Basic%20Algorithms/Searching%20Algorithms/Linear%20Search/)
+    - [**Binary Search** 🌴](./Basic%20Algorithms/Searching%20Algorithms/Binary%20Search/)
 
 ## Common Time and Space Complexities Reminder
 
