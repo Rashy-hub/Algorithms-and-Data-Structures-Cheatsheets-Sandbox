@@ -18,4 +18,4 @@
 -   **Worst Case Time Complexity**: O(n^2) - The array is sorted in reverse order.
 -   **Space Complexity**: O(1) - Only a constant amount of space is required.
 
-[Back to Sortgin Algorithms folder](../../Sorting%20Algorithms/ReadMe.md)
+[Back to Sorting Algorithms Folder](../../Sorting%20Algorithms/ReadMe.md)

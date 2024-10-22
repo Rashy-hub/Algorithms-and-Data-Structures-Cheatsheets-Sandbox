@@ -21,4 +21,4 @@
 -   **Worst Case Time Complexity**: O(log n) - The search continues until the interval is empty.
 -   **Space Complexity**: O(1) - Only a constant amount of space is required for pointers.
 
-[Back to Sortgin Algorithms folder](../../Searching%20Algorithms/ReadMe.md)
+[Back to Searching Algorithms Folder](../../Searching%20Algorithms/ReadMe.md)

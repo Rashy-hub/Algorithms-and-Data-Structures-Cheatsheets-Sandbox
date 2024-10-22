@@ -17,4 +17,4 @@
 -   **Worst Case Time Complexity**: O(n log n)
 -   **Space Complexity**: O(n) - Requires additional space for merging.
 
-[Back to Sortgin Algorithms folder](../../Sorting%20Algorithms/ReadMe.md)
+[Back to Sorting Algorithms Folder](../../Sorting%20Algorithms/ReadMe.md)

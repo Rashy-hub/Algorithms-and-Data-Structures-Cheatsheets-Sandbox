@@ -19,4 +19,4 @@
 -   **Worst Case Time Complexity**: O(n^2) - When the smallest or largest element is always chosen as the pivot.
 -   **Space Complexity**: O(log n) - Due to recursive stack space.
 
-[Back to Sortgin Algorithms folder](../../Sorting%20Algorithms/ReadMe.md)
+[Back to Sorting Algorithms Folder](../../Sorting%20Algorithms/ReadMe.md)

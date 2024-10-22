@@ -18,4 +18,4 @@
 -   **Worst Case Time Complexity**: O(n) - The target is not found or is the last element.
 -   **Space Complexity**: O(1) - Only a constant amount of space is required.
 
-[Back to Sortgin Algorithms folder](../../Searching%20Algorithms/ReadMe.md)
+[Back to Searching Algorithms Folder](../../Searching%20Algorithms/ReadMe.md)
