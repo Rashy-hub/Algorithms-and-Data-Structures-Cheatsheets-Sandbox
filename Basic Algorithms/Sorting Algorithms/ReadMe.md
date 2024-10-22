@@ -31,6 +31,6 @@
     [Selection Sort](./Selection%20Sort/)
     [Insertion Sort](./Insertion%20Sort/)
     [Merge Sort](./Merge%20Sort/)
-    [Quick Sort](./Merge%20Sort/)
+    [Quick Sort](./Quick%20Sort/)
 
 [Back to main README](../../ReadMe.md)
