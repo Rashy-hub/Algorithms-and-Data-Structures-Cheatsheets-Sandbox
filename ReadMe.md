@@ -7,7 +7,7 @@ Currently, it's just the foundational setup. More features and content will be a
 
 ## Data Structures:
 
-1. [**Arrays** 📊](./Basic%20Data%20Structure/Arrays/Arrays.md)
+1. [**Arrays** 📊](./Basic%20Data%20Structure/Arrays)
 2. [**Linked Lists** 🔗](./Basic%20Data%20Structure/Linked%20Lists/Linked-List.md)
 3. [**Stacks** 🥞](./Basic%20Data%20Structure/Stacks/Stacks.md)
 4. [**Queues** ⏳](./Basic%20Data%20Structure/Queues/Queues.md)
@@ -23,13 +23,13 @@ Currently, it's just the foundational setup. More features and content will be a
     - [**Factorial** ✖️](./Basic%20Algorithms/Recursion%20Algorithms/Factorial/Factorial.md)
     - [**Fibonacci** 🌀](./Basic%20Algorithms/Recursion%20Algorithms/Fibonnacci/Fibonnacci.md)
 
-2. **Sorting Algorithms:** 📏
+2. [**Sorting Algorithms:** 📏](./Basic%20Algorithms/Sorting%20Algorithms/Sorting-Algorithms.md)
 
-    - [**Bubble Sort** 🔵](./BasicAlgorithms/Sorting%20Algorithms/Bubble%20Sort)
-    - [**Selection Sort** 🎯](./BasicAlgorithms/Sorting%20Algorithms/Selection%20Sort)
-    - [**Insertion Sort** ➕](./BasicAlgorithms/Sorting%20Algorithms/Insertion%20Sort)
-    - [**Merge Sort** 🔀](./BasicAlgorithms/Sorting%20Algorithms/Merge%20Sort)
-    - [**Quick Sort** ⚡](./BasicAlgorithms/Sorting%20Algorithms/Quick%20Sort)
+    - [**Bubble Sort** 🔵](./Basic%20Algorithms/Sorting%20Algorithms/Bubble%20Sort/BubbleSort.md)
+    - [**Selection Sort** 🎯](./Basic%20Algorithms/Sorting%20Algorithms/Selection%20Sort/SelectionSort.md)
+    - [**Insertion Sort** ➕](./Basic%20Algorithms/Sorting%20Algorithms/Insertion%20Sort/InsertionSort.md)
+    - [**Merge Sort** 🔀](./Basic%20Algorithms/Sorting%20Algorithms/Merge%20Sort/MergeSort.md)
+    - [**Quick Sort** ⚡](./Basic%20Algorithms/Sorting%20Algorithms/Quick%20Sort/QuickSort.md)
 
 3. **Searching Algorithms:** 🔍
 
