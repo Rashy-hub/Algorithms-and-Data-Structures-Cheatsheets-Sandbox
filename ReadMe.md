@@ -2,9 +2,6 @@
 
 This project is designed to help me (and hopefully you too 😅) understand, implement, and work with fundamental data structures & basic algorithms using JavaScript (Node.js). There's no heavy theoretical content here—just a straightforward, practical reminder!
 
-🚧 **This project is still in its base structure folder!** 🚧  
-Currently, it's just the foundational setup. More features and content will be added soon! 🛠️
-
 ## Data Structures:
 
 1. [**Arrays** 📊](./Basic%20Data%20Structure/Arrays)
